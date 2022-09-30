@@ -1,6 +1,9 @@
 a{
   text-decoration: none;
 }
+p{
+  font-family: 'Envato'
+}
 
 .header{
   height: 50px;
@@ -32,68 +35,109 @@ a{
 .eyecatch_container{
   position: relative;
   margin-top: 10px;
+  display:flex;
 }
 
 .eyecatch_img{
+  width: 60%;
  display: block;
  margin: 0 0 0 auto;
 }
 
 .eyecatch_textlogo{
-  font-family:initial;
+  font-family: 'Indie Flower', cursive;
   position: absolute;
   top: 50px;
-  font-size: 50px;
+  left: 300px;
+  font-size: 100px;
   color: #b21667;
 }
-.span1 {
+.span1 , .strong {
   color: #0BA0B3;
 }
 
-.eyecatch_text1{
 
+.eyecatch_text1{
+  color: #b21667;
+  position: absolute;
+  top: 350px;
+  left: 300px;
+  font-size: 35px;
 }
 
 .eyecatch_text2{
-
+  color: #878787;
+  position: absolute;
+  top: 410px;
+  left: 300px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:'Envato'
 }
 
 .news_container{
-
+  position: relative;
+  margin-top: 50px;
+  display:flex;
 }
 
 .title_logo{
-
+  font-family: 'Indie Flower', cursive;
+  position: absolute;
+  top: 50px;
+  left: 350px;
+  font-size: 30px;
+  color: #878787;
 }
 
 .title_text{
-
+  font-weight: bolder;
+  position: absolute;
+  top: 70px;
+  left: 350px;
+  font-size: 30px;
+  color: #878787;
 }
 
 .news_wrapper{
-
+  position: absolute;
+  top: 150px;
+  left: 310px;
+}
+.border_bottom{
+  border-bottom: #a5a5a5 solid;
 }
 .news_outer{
-
+  display: flex;
+  justify-content:flex-start;
+  border-top: #a5a5a5 solid;
+  border-width: 2px;
+  font-weight: bold;
+  color: #a5a5a5;
 }
 .news_inner_date{
-
+  margin:20px 30px 20px 0px;
 }
-
 .news_inner_icon{
-
+  color: #FFF;
+  background-color: #b21667;
+  text-align: center;
+  border-radius: 15px;
+  padding: 0px 15px;
+  height: 25px;
+  line-height: 25px;
+  margin: 20px 30px 20px 0px;
 }
 
 .news_inner_txt{
-
+  margin: 20px 150px 20px 0px;
 }
 
-.news_outer{
-
-}
 
 .about_container{
-
+  position: relative;
+  margin-top: 10px;
+  display: flex;
 }
 .about_text1{
 
@@ -106,7 +150,9 @@ a{
 
 }
 .service_container{
-
+  position: relative;
+  margin-top: 50px;
+  display:flex;
 }
 .service_grid_wrapper{
 
@@ -133,7 +179,9 @@ a{
 }
 
 .blog_container{
-
+  position: relative;
+  margin-top: 50px;
+  display:flex;
 }
 .flex_card{
 
@@ -163,7 +211,9 @@ a{
 
 }
 .company_container{
-
+  position: relative;
+  margin-top: 50px;
+  display:flex;
 }
 
 .table_wrapper{
@@ -177,7 +227,9 @@ a{
 }
 
 .contact_container{
-
+  position: relative;
+  margin-top: 50px;
+  display: flex;
 }
 .contact_element1{
 
@@ -195,7 +247,9 @@ align-items: center;
 }
 
 .mail_container{
-
+  position: relative;
+  margin-top: 50px;
+  display: flex;
 }
 
 .mail_text{
